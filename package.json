@@ -4,7 +4,7 @@
   "icon": "media/activity-icon.png",
   "license": "MIT",
   "description": "타자 속도에 맞춰 햄스터가 챗바퀴를 굴려요",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "soop",
   "repository": {
     "type": "git",
