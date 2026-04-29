@@ -1,4 +1,4 @@
-# Run Hamster RunRun🐹
+# Run Hamster Run🐹
 
 > A tiny hamster lives in your sidebar and runs on a wheel as you type. The faster you code, the faster it runs.
 
