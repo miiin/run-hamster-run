@@ -1,0 +1,62 @@
+{
+  "name": "hamster-run",
+  "displayName": "Hamster Run",
+  "description": "타자 속도에 맞춰 햄스터가 챗바퀴를 굴려요",
+  "version": "0.0.1",
+  "publisher": "soop",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "hamster-run",
+          "title": "Hamster Run",
+          "icon": "media/activity-icon.png"
+        }
+      ]
+    },
+    "views": {
+      "hamster-run": [
+        {
+          "id": "hamsterRun.view",
+          "name": "Hamster",
+          "type": "webview"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Hamster Run",
+      "properties": {
+        "hamsterRun.idleThreshold": {
+          "type": "number",
+          "default": 0.2,
+          "description": "이 값 이하의 cps(초당 글자수)에서는 idle 상태로 간주합니다."
+        },
+        "hamsterRun.windowMs": {
+          "type": "number",
+          "default": 2000,
+          "description": "타자 속도를 계산할 때 사용하는 슬라이딩 윈도우 길이(ms)."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.3.0"
+  }
+}
