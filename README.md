@@ -4,9 +4,9 @@
 
 ![Run Hamster Run Demo](images/demo.gif)
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/miiin.hamster-run)](https://marketplace.visualstudio.com/items?itemName=miiin.hamster-run)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/miiin.hamster-run)](https://marketplace.visualstudio.com/items?itemName=miiin.hamster-run)
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/miiin.hamster-run)](https://marketplace.visualstudio.com/items?itemName=miiin.hamster-run)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/soop.run-hamster-run)](https://marketplace.visualstudio.com/items?itemName=soop.run-hamster-run)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/soop.run-hamster-run)](https://marketplace.visualstudio.com/items?itemName=soop.run-hamster-run)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/soop.run-hamster-run)](https://marketplace.visualstudio.com/items?itemName=soop.run-hamster-run)
 
 [Report a bug](https://github.com/miiin/run-hamster-run/issues/new) · [Request a feature](https://github.com/miiin/run-hamster-run/issues/new)
 
@@ -20,7 +20,7 @@ There are three ways to install Run Hamster Run.
 
 **1. From the Visual Studio Marketplace**
 
-Visit the [Run Hamster Run page](https://marketplace.visualstudio.com/items?itemName=miiin.hamster-run) and click **Install**.
+Visit the [Run Hamster Run page](https://marketplace.visualstudio.com/items?itemName=soop.run-hamster-run) and click **Install**.
 
 **2. From the Extensions panel inside VS Code**
 
@@ -31,7 +31,7 @@ Open the Extensions panel (`Cmd+Shift+X` / `Ctrl+Shift+X`), search for **Run Ham
 Press `Cmd+P` / `Ctrl+P`, paste the line below, and hit Enter:
 
 ```
-ext install miiin.run-hamster-run
+ext install soop.run-hamster-run
 ```
 
 ---
