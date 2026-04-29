@@ -3,13 +3,17 @@
   "displayName": "Run Hamster Run",
   "icon": "media/activity-icon.png",
   "license": "MIT",
-  "description": "타자 속도에 맞춰 햄스터가 챗바퀴를 굴려요",
-  "version": "0.1.0",
+  "description": "The hamster runs on the wheel at your typing speed.",
+  "version": "0.1.1",
   "publisher": "soop",
   "repository": {
     "type": "git",
-    "url": "https://github.com/miiin/run-hamster-run"
+    "url": "https://github.com/miiin/run-hamster-run.git"
   },
+  "bugs": {
+    "url": "https://github.com/miiin/run-hamster-run/issues"
+  },
+  "homepage": "https://github.com/miiin/run-hamster-run#readme",
   "engines": {
     "vscode": "^1.85.0"
   },
