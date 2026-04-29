@@ -1,8 +1,8 @@
-# Run Hamster Run
+# Run Hamster RunRun🐹
 
 > A tiny hamster lives in your sidebar and runs on a wheel as you type. The faster you code, the faster it runs.
 
-![Hamster Run Demo](images/demo.gif)
+![Run Hamster Run Demo](images/demo.gif)
 
 [![Version](https://img.shields.io/visual-studio-marketplace/v/miiin.hamster-run)](https://marketplace.visualstudio.com/items?itemName=miiin.hamster-run)
 [![Installs](https://img.shields.io/visual-studio-marketplace/i/miiin.hamster-run)](https://marketplace.visualstudio.com/items?itemName=miiin.hamster-run)
@@ -24,14 +24,14 @@ Visit the [Run Hamster Run page](https://marketplace.visualstudio.com/items?item
 
 **2. From the Extensions panel inside VS Code**
 
-Open the Extensions panel (`Cmd+Shift+X` / `Ctrl+Shift+X`), search for **Hamster Run**, and click **Install**.
+Open the Extensions panel (`Cmd+Shift+X` / `Ctrl+Shift+X`), search for **Run Hamster Run**, and click **Install**.
 
 **3. From Quick Open**
 
 Press `Cmd+P` / `Ctrl+P`, paste the line below, and hit Enter:
 
 ```
-ext install miiin.hamster-run
+ext install miiin.run-hamster-run
 ```
 
 ---
@@ -101,6 +101,38 @@ Half the fun is finding them yourself, so here are only hints:
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md).
+
+---
+
+## Development
+
+Want to hack on Run Hamster Run locally? Here's the setup.
+
+**Prerequisites**
+
+- [Node.js](https://nodejs.org/) 18+ and npm
+- [Visual Studio Code](https://code.visualstudio.com/) 1.85+
+
+**Run the extension locally**
+
+```bash
+git clone https://github.com/miiin/run-hamster-run.git
+cd run-hamster-run
+npm install
+npm run watch
+```
+
+Then open the project in VS Code and press `F5` (or run **"Run Extension"** from the Run and Debug panel). A new Extension Development Host window will launch with the extension loaded — open the Explorer sidebar to see the **Hamster** panel.
+
+**Project layout**
+
+- `src/extension.ts` — extension entry point (activation, webview wiring)
+- `media/` — webview HTML/CSS/JS, sprites, and animations
+- `package.json` — extension manifest (commands, views, settings)
+
+**Contributing**
+
+Bug reports and PRs are welcome. For non-trivial changes, please [open an issue](https://github.com/miiin/run-hamster-run/issues/new) first to discuss the approach.
 
 ---
 

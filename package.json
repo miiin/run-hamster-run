@@ -8,7 +8,7 @@
   "publisher": "soop",
   "repository": {
     "type": "git",
-    "url": "https://github.com/soop/run-hamster-run"
+    "url": "https://github.com/miiin/run-hamster-run"
   },
   "engines": {
     "vscode": "^1.85.0"
@@ -21,17 +21,8 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "viewsContainers": {
-      "activitybar": [
-        {
-          "id": "hamster-run",
-          "title": "Run Hamster Run",
-          "icon": "media/activity-icon.png"
-        }
-      ]
-    },
     "views": {
-      "hamster-run": [
+      "explorer": [
         {
           "id": "hamsterRun.view",
           "name": "Hamster",
